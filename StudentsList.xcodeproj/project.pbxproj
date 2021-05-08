@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E35640726469CC100527772 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35640626469CC100527772 /* StudentTableViewCell.swift */; };
 		2ED655EA2643E05E005B5E3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED655E92643E05E005B5E3E /* AppDelegate.swift */; };
 		2ED655EC2643E05E005B5E3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED655EB2643E05E005B5E3E /* SceneDelegate.swift */; };
-		2ED655EE2643E05E005B5E3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED655ED2643E05E005B5E3E /* ViewController.swift */; };
 		2ED655F12643E05E005B5E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED655EF2643E05E005B5E3E /* Main.storyboard */; };
 		2ED655F32643E060005B5E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED655F22643E060005B5E3E /* Assets.xcassets */; };
 		2ED655F62643E060005B5E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED655F42643E060005B5E3E /* LaunchScreen.storyboard */; };
+		2ED6563D26452391005B5E3E /* AddStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6563C26452391005B5E3E /* AddStudentsViewController.swift */; };
+		2ED65640264523FB005B5E3E /* StudentsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6563F264523FB005B5E3E /* StudentsListTableViewController.swift */; };
+		2ED6564526455C74005B5E3E /* StudList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6564326455C74005B5E3E /* StudList.xcdatamodeld */; };
+		2ED6564826455EF4005B5E3E /* CoreDataStask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6564726455EF4005B5E3E /* CoreDataStask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E35640626469CC100527772 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
 		2ED655E62643E05E005B5E3E /* StudentsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED655E92643E05E005B5E3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED655EB2643E05E005B5E3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2ED655ED2643E05E005B5E3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2ED655F02643E05E005B5E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ED655F22643E060005B5E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ED655F52643E060005B5E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ED655F72643E060005B5E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED6563C26452391005B5E3E /* AddStudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentsViewController.swift; sourceTree = "<group>"; };
+		2ED6563F264523FB005B5E3E /* StudentsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsListTableViewController.swift; sourceTree = "<group>"; };
+		2ED6564426455C74005B5E3E /* StudList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudList.xcdatamodel; sourceTree = "<group>"; };
+		2ED6564726455EF4005B5E3E /* CoreDataStask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E3564092646A02D00527772 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2E35640626469CC100527772 /* StudentTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		2ED655DD2643E05E005B5E3E = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +72,43 @@
 		2ED655E82643E05E005B5E3E /* StudentsList */ = {
 			isa = PBXGroup;
 			children = (
-				2ED655E92643E05E005B5E3E /* AppDelegate.swift */,
-				2ED655EB2643E05E005B5E3E /* SceneDelegate.swift */,
-				2ED655ED2643E05E005B5E3E /* ViewController.swift */,
-				2ED655EF2643E05E005B5E3E /* Main.storyboard */,
-				2ED655F22643E060005B5E3E /* Assets.xcassets */,
-				2ED655F42643E060005B5E3E /* LaunchScreen.storyboard */,
 				2ED655F72643E060005B5E3E /* Info.plist */,
+				2ED655FE2643E068005B5E3E /* App */,
+				2ED6564226455C22005B5E3E /* CoreData */,
+				2E3564092646A02D00527772 /* Cell */,
+				2ED656022643E0BE005B5E3E /* Controller */,
 			);
 			path = StudentsList;
+			sourceTree = "<group>";
+		};
+		2ED655FE2643E068005B5E3E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2ED655E92643E05E005B5E3E /* AppDelegate.swift */,
+				2ED655EB2643E05E005B5E3E /* SceneDelegate.swift */,
+				2ED655EF2643E05E005B5E3E /* Main.storyboard */,
+				2ED655F42643E060005B5E3E /* LaunchScreen.storyboard */,
+				2ED655F22643E060005B5E3E /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2ED656022643E0BE005B5E3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2ED6563C26452391005B5E3E /* AddStudentsViewController.swift */,
+				2ED6563F264523FB005B5E3E /* StudentsListTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2ED6564226455C22005B5E3E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2ED6564326455C74005B5E3E /* StudList.xcdatamodeld */,
+				2ED6564726455EF4005B5E3E /* CoreDataStask.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED655EE2643E05E005B5E3E /* ViewController.swift in Sources */,
+				2ED6563D26452391005B5E3E /* AddStudentsViewController.swift in Sources */,
+				2ED6564526455C74005B5E3E /* StudList.xcdatamodeld in Sources */,
+				2ED65640264523FB005B5E3E /* StudentsListTableViewController.swift in Sources */,
 				2ED655EA2643E05E005B5E3E /* AppDelegate.swift in Sources */,
 				2ED655EC2643E05E005B5E3E /* SceneDelegate.swift in Sources */,
+				2ED6564826455EF4005B5E3E /* CoreDataStask.swift in Sources */,
+				2E35640726469CC100527772 /* StudentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +201,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		2ED655F42643E060005B5E3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -339,6 +388,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2ED6564326455C74005B5E3E /* StudList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2ED6564426455C74005B5E3E /* StudList.xcdatamodel */,
+			);
+			currentVersion = 2ED6564426455C74005B5E3E /* StudList.xcdatamodel */;
+			path = StudList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2ED655DE2643E05E005B5E3E /* Project object */;
 }
