@@ -13,6 +13,7 @@ class StudentsListTableViewController: UITableViewController {
     // MARK: - Properties
     var resultsController: NSFetchedResultsController<List>!
     let coreDataStack = CoreDataStack()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     

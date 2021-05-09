@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2E35640726469CC100527772 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35640626469CC100527772 /* StudentTableViewCell.swift */; };
+		2E35644F264707B200527772 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35644E264707B200527772 /* LaunchViewController.swift */; };
+		2E3564522647080600527772 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E3564512647080600527772 /* gif.gif */; };
+		2E35645526470AC200527772 /* gifToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35645426470AC200527772 /* gifToImage.swift */; };
 		2ED655EA2643E05E005B5E3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED655E92643E05E005B5E3E /* AppDelegate.swift */; };
 		2ED655EC2643E05E005B5E3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED655EB2643E05E005B5E3E /* SceneDelegate.swift */; };
 		2ED655F12643E05E005B5E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED655EF2643E05E005B5E3E /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		2E35640626469CC100527772 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		2E35644E264707B200527772 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		2E3564512647080600527772 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		2E35645426470AC200527772 /* gifToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifToImage.swift; sourceTree = "<group>"; };
 		2ED655E62643E05E005B5E3E /* StudentsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED655E92643E05E005B5E3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED655EB2643E05E005B5E3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +90,8 @@
 		2ED655FE2643E068005B5E3E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				2E35645426470AC200527772 /* gifToImage.swift */,
+				2E3564512647080600527772 /* gif.gif */,
 				2ED655E92643E05E005B5E3E /* AppDelegate.swift */,
 				2ED655EB2643E05E005B5E3E /* SceneDelegate.swift */,
 				2ED655EF2643E05E005B5E3E /* Main.storyboard */,
@@ -98,6 +106,7 @@
 			children = (
 				2ED6563C26452391005B5E3E /* AddStudentsViewController.swift */,
 				2ED6563F264523FB005B5E3E /* StudentsListTableViewController.swift */,
+				2E35644E264707B200527772 /* LaunchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -169,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED655F62643E060005B5E3E /* LaunchScreen.storyboard in Resources */,
+				2E3564522647080600527772 /* gif.gif in Resources */,
 				2ED655F32643E060005B5E3E /* Assets.xcassets in Resources */,
 				2ED655F12643E05E005B5E3E /* Main.storyboard in Resources */,
 			);
@@ -183,11 +193,13 @@
 			files = (
 				2ED6563D26452391005B5E3E /* AddStudentsViewController.swift in Sources */,
 				2ED6564526455C74005B5E3E /* StudList.xcdatamodeld in Sources */,
+				2E35645526470AC200527772 /* gifToImage.swift in Sources */,
 				2ED65640264523FB005B5E3E /* StudentsListTableViewController.swift in Sources */,
 				2ED655EA2643E05E005B5E3E /* AppDelegate.swift in Sources */,
 				2ED655EC2643E05E005B5E3E /* SceneDelegate.swift in Sources */,
 				2ED6564826455EF4005B5E3E /* CoreDataStask.swift in Sources */,
 				2E35640726469CC100527772 /* StudentTableViewCell.swift in Sources */,
+				2E35644F264707B200527772 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJYN6Z9BM;
 				INFOPLIST_FILE = StudentsList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -354,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VJYN6Z9BM;
 				INFOPLIST_FILE = StudentsList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
